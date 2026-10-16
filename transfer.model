@@ -5,4 +5,4 @@ Currency: Same, Different
 
 IF [From] = "Missing" THEN [Amount] = "Normal";
 IF [To] = "Missing" THEN [Amount] = "Normal";
-IF [From] = "SameAsFrom" THEN [To] <> "SameAsFrom";
+IF [From] = "Missing" THEN [To] <> "SameAsFrom";

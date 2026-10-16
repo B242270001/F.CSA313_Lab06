@@ -3,5 +3,5 @@ To:       Valid, ~Missing, ~SameAsFrom
 Amount:   Normal, ~Zero, ~OverBalance, ~OverLimit
 Currency: Same, Different
 
-IF [From] = "~Missing" THEN [Amount] = "Normal";
-IF [To] = "~Missing" THEN [Amount] = "Normal";
+IF [From] = "Missing" THEN [Amount] = "Normal";
+IF [To] = "Missing" THEN [Amount] = "Normal";
